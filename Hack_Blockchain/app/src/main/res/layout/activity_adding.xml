@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/news_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Name"/>
+
+    <EditText
+        android:id="@+id/news_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter date"/>
+
+    <EditText
+        android:id="@+id/new_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:hint="Enter Amount"/>
+
+    <Button
+        android:id="@+id/submit_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit "
+        android:padding="10dp"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"/>
+
+
+</LinearLayout>
